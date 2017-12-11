@@ -7,7 +7,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    final int POINTS_FOR_THREE_POINTS_SHOT = 3;
+    final int POINTS_FOR_TWO_POINTS_SHOT = 2;
+    final int POINTS_FOR_FREE_THROW = 1;
     int scoreA = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreePoints (View view) {
-        scoreA = scoreA +3;
+        scoreA = scoreA + POINTS_FOR_THREE_POINTS_SHOT;
         displayForTeamA(scoreA);
     }
 
     public void addTwoPoints (View view) {
-        scoreA = scoreA +2;
+        scoreA = scoreA + POINTS_FOR_TWO_POINTS_SHOT;
         displayForTeamA(scoreA);
     }
 
     public void addFreeThrow (View view) {
-        scoreA = scoreA +1;
+        scoreA = scoreA + POINTS_FOR_FREE_THROW;
         displayForTeamA(scoreA);
     }
 
