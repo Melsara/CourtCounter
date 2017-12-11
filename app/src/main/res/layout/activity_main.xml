@@ -8,38 +8,46 @@
     tools:context="com.sardegnaisoladicavalli.example.courtcounter.MainActivity">
 
     <TextView
+        android:id="@+id/team_a_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/team_name"
+        android:text="@string/team_a_name"
         android:gravity="center_horizontal"
         android:layout_marginTop="@dimen/text_margin"
         android:layout_marginBottom="@dimen/text_margin"/>
 
     <TextView
+        android:id="@+id/team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/score1"
         android:gravity="center_horizontal" />
 
     <Button
+        android:id="@+id/three_points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/three_points"
-        android:layout_margin="@dimen/button_margin"/>
+        android:layout_margin="@dimen/button_margin"
+        android:onClick="addThreePoints"/>
 
     <Button
+        android:id="@+id/two_points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/two_points"
         android:layout_marginBottom="@dimen/button_margin"
         android:layout_marginRight="@dimen/button_margin"
-        android:layout_marginLeft="@dimen/button_margin"/>
+        android:layout_marginLeft="@dimen/button_margin"
+        android:onClick="addTwoPoints"/>
 
     <Button
+        android:id="@+id/free_throw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/free_throw"
         android:layout_marginRight="@dimen/button_margin"
-        android:layout_marginLeft="@dimen/button_margin"/>
+        android:layout_marginLeft="@dimen/button_margin"
+        android:onClick="addFreeThrow"/>
 
 </LinearLayout>
