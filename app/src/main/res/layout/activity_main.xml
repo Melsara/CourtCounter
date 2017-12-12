@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="@string/three_points"
         android:layout_margin="@dimen/button_margin"
-        android:onClick="addThreePoints"/>
+        android:onClick="addThreePointsA"/>
 
     <Button
         android:id="@+id/a_two_points"
@@ -45,7 +45,7 @@
         android:layout_marginBottom="@dimen/button_margin"
         android:layout_marginRight="@dimen/button_margin"
         android:layout_marginLeft="@dimen/button_margin"
-        android:onClick="addTwoPoints"/>
+        android:onClick="addTwoPointsA"/>
 
     <Button
         android:id="@+id/a_free_throw"
@@ -54,7 +54,7 @@
         android:text="@string/free_throw"
         android:layout_marginRight="@dimen/button_margin"
         android:layout_marginLeft="@dimen/button_margin"
-        android:onClick="addFreeThrow"/>
+        android:onClick="addFreeThrowA"/>
 
     </LinearLayout>
 
@@ -68,7 +68,7 @@
             android:id="@+id/team_b_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/team_a_name"
+            android:text="@string/team_b_name"
             android:gravity="center_horizontal"
             android:layout_marginTop="@dimen/text_margin"
             android:layout_marginBottom="@dimen/text_margin"/>
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="@string/three_points"
             android:layout_margin="@dimen/button_margin"
-            android:onClick="addThreePoints"/>
+            android:onClick="addThreePointsB"/>
 
         <Button
             android:id="@+id/b_two_points"
@@ -96,7 +96,7 @@
             android:layout_marginBottom="@dimen/button_margin"
             android:layout_marginRight="@dimen/button_margin"
             android:layout_marginLeft="@dimen/button_margin"
-            android:onClick="addTwoPoints"/>
+            android:onClick="addTwoPointsB"/>
 
         <Button
             android:id="@+id/b_free_throw"
@@ -105,7 +105,7 @@
             android:text="@string/free_throw"
             android:layout_marginRight="@dimen/button_margin"
             android:layout_marginLeft="@dimen/button_margin"
-            android:onClick="addFreeThrow"/>
+            android:onClick="addFreeThrowB"/>
 
     </LinearLayout>
 
