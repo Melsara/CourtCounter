@@ -76,4 +76,15 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreB);
     }
 
+    /**
+     * Reset the points for both teams.
+     */
+
+    public void resetAll (View view) {
+        scoreA = 0;
+        scoreB = 0;
+        displayForTeamA(scoreA);
+        displayForTeamB(scoreB);
+    }
+
 }

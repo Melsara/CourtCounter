@@ -123,6 +123,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="@dimen/button_margin"
         android:layout_marginRight="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin"
         android:onClick="resetAll"
         android:text="@string/reset" />
 
